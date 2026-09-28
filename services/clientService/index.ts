@@ -1,7 +1,7 @@
 /**
  * Client-side service entry point.
  *
- * Add domain-specific client services as requirements demand them.
  * Client Components should call services rather than fetch APIs directly.
  */
-export {};
+export { jevService } from './jev.service'
+export type { EvaluateRequest } from './jev.service'
